@@ -51,7 +51,7 @@ sudo make install
 cd ..
 
 
-tar xzvf jpegsrc.v8b.tar.gz
+tar xzvf jpegsrc.v9.tar.gz
 cd jpeg-8b
 ln -s -f `which glibtool` ./libtool
 export MACOSX_DEPLOYMENT_TARGET=10.7
