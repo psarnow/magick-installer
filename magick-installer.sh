@@ -52,7 +52,7 @@ cd ..
 
 
 tar xzvf jpegsrc.v9.tar.gz
-cd jpeg-8b
+cd jpeg-9
 ln -s -f `which glibtool` ./libtool
 export MACOSX_DEPLOYMENT_TARGET=10.7
 ./configure --enable-shared --prefix=/usr/local
